@@ -3,8 +3,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/style.css" />
-<!-- <link href="css/style.css" rel="stylesheet" type="text/css"/> -->
+<%-- <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/style.css" /> --%>
+<link href="resources/css/style.css" rel="stylesheet" type="text/css"/>
 <body>
 
 <div class="logo"></div>

@@ -12,7 +12,7 @@ public class Users {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     @Column(name="user_id")
-    private int id;
+    private int user_id;
     
     @Column(name="user_name")
     private String user_name;
@@ -20,15 +20,12 @@ public class Users {
     @Column(name="email")
     private String email;
 
-
-
-
-	public int getId() {
-		return id;
+	public int getUser_id() {
+		return user_id;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setUser_id(int user_id) {
+		this.user_id = user_id;
 	}
 
 	public String getUser_name() {

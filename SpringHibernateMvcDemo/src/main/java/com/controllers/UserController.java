@@ -48,7 +48,7 @@ public class UserController {
 		System.out.println("*****Users******");
 		
 		for(int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i).getUser_name()+" "+list.get(i).getId());
+            System.out.println(list.get(i).getUser_name()+" "+list.get(i).getUser_id());
         }
 		   		    
 		if(list != null){
@@ -67,7 +67,7 @@ public class UserController {
 	@RequestMapping(value="/delete",method=RequestMethod.POST)
 	public @ResponseBody Map<String,Object> delete(Users users){
 		
-		System.out.println("ID: "+users.getId());
+		System.out.println("ID: "+users.getUser_id());
 		Map<String,Object> map=new HashMap<String,Object>();
 		
 		if(userServices.delete(users)){
