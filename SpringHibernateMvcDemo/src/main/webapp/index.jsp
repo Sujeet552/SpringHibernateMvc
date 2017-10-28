@@ -15,7 +15,7 @@
     <button>Submit</button>
 </div>
  
-<a href="page">Click here</a>
+<a href="users/page">Click here</a>
 </body>
 </html>
 
